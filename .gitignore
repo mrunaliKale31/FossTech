@@ -1,0 +1,42 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Build artifacts
+/js/
+/css/*.css
+!/css/style.css
+
+# Environment
+.env
+*.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Docker
+docker-compose.override.yml
+
+# Nextcloud
+/data/
+/config/config.php
+
+# Testing
+/coverage/
+/.phpunit.cache/
+
+# Temporary files
+*.tmp
+*.bak

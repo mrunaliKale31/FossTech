@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>gitintegration</id>
+    <name>Git Integration</name>
+    <summary>Integrate Git repositories with Nextcloud</summary>
+    <description><![CDATA[
+Git Integration brings external Git repositories into Nextcloud, providing seamless synchronization, 
+documentation management, and release note generation.
+
+Features:
+- Connect GitLab accounts (GitLab.com and self-hosted)
+- Browse and link repositories to Nextcloud folders
+- Bidirectional synchronization with conflict detection
+- Markdown and AsciiDoc documentation viewer
+- Documentation suggestion and approval workflow
+- Commit history and branch management
+- Automated release note generation from Git commits
+- Activity tracking and notifications
+
+Future support planned for Gitea and Forgejo.
+    ]]></description>
+    <version>1.0.0</version>
+    <licence>agpl</licence>
+    <author mail="your.email@example.com" homepage="https://github.com/mrunaliKale31/FossTech">FossTech Team</author>
+    <namespace>GitIntegration</namespace>
+    <category>integration</category>
+    <category>tools</category>
+    <bugs>https://github.com/mrunaliKale31/FossTech/issues</bugs>
+    <repository type="git">https://github.com/mrunaliKale31/FossTech.git</repository>
+    
+    <dependencies>
+        <nextcloud min-version="25" max-version="30"/>
+        <php min-version="8.0" max-version="8.5"/>
+    </dependencies>
+    
+    <navigations>
+        <navigation>
+            <name>Git Integration</name>
+            <route>gitintegration.page.index</route>
+            <icon>app.svg</icon>
+        </navigation>
+    </navigations>
+    
+    <settings>
+        <admin>OCA\GitIntegration\Settings\AdminSettings</admin>
+        <personal>OCA\GitIntegration\Settings\PersonalSettings</personal>
+    </settings>
+</info>
