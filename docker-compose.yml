@@ -16,7 +16,6 @@ services:
       - NEXTCLOUD_TRUSTED_DOMAINS=localhost
     volumes:
       - nextcloud_data:/var/www/html
-      - ./:/var/www/html/custom_apps/gitintegration:ro
     depends_on:
       - db
     networks:

@@ -30,7 +30,7 @@ Future support planned for Gitea and Forgejo.
     <repository type="git">https://github.com/mrunaliKale31/FossTech.git</repository>
     
     <dependencies>
-        <nextcloud min-version="25" max-version="30"/>
+        <nextcloud min-version="25" max-version="35"/>
         <php min-version="8.0" max-version="8.5"/>
     </dependencies>
     
