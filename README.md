@@ -113,9 +113,9 @@ A comprehensive Nextcloud application that integrates Git repositories (GitLab, 
    - Enable the Git Integration app
 
 3. **Access Nextcloud**
-   - Nextcloud: http://localhost:8080
+   - Nextcloud: http://localhost:8090
    - Admin login: `admin` / `admin`
-   - Adminer (database): http://localhost:8081
+   - Adminer (database): http://localhost:8091
 
 ### Option 2: Manual Installation
 

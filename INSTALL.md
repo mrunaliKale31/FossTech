@@ -16,8 +16,8 @@ make setup
 ```
 
 After about 30 seconds, access:
-- **Nextcloud**: http://localhost:8080 (admin/admin)
-- **Adminer**: http://localhost:8081 (for database management)
+- **Nextcloud**: http://localhost:8090 (admin/admin)
+- **Adminer**: http://localhost:8091 (for database management)
 
 ## Manual Installation
 
@@ -132,8 +132,8 @@ docker-compose up -d
 
 ### Access Services
 
-- **Nextcloud**: http://localhost:8080
-- **Adminer** (database management): http://localhost:8081
+- **Nextcloud**: http://localhost:8090
+- **Adminer** (database management): http://localhost:8091
   - System: PostgreSQL
   - Server: db
   - Username: nextcloud

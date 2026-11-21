@@ -29,7 +29,7 @@ Wait about 30 seconds for Nextcloud to initialize.
 
 ## Step 2: Access Nextcloud (30 seconds)
 
-Open your browser and go to: **http://localhost:8080**
+Open your browser and go to: **http://localhost:8090**
 
 Login credentials:
 - Username: `admin`
@@ -101,7 +101,7 @@ In Nextcloud:
 
 - Backend: `lib/` directory
 - Frontend: `src/` directory
-- Database: Check Adminer at http://localhost:8081
+- Database: Check Adminer at http://localhost:8091
 
 ### Read Documentation
 
@@ -167,7 +167,7 @@ Your data persists in Docker volumes, so linked repositories and accounts remain
 
 To inspect the database:
 
-1. Go to http://localhost:8081 (Adminer)
+1. Go to http://localhost:8091 (Adminer)
 2. Login:
    - System: `PostgreSQL`
    - Server: `db`

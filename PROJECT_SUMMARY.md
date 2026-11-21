@@ -155,7 +155,7 @@ cd FossTech
 make setup
 ```
 
-Access at http://localhost:8080 (admin/admin)
+Access at http://localhost:8090 (admin/admin)
 
 ### Manual Installation
 1. Install dependencies: `composer install && npm install`

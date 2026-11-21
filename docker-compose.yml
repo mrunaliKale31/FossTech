@@ -5,7 +5,7 @@ services:
     image: nextcloud:latest
     container_name: nextcloud-git-integration
     ports:
-      - "8080:80"
+      - "8090:80"
     environment:
       - POSTGRES_HOST=db
       - POSTGRES_DB=nextcloud
@@ -38,7 +38,7 @@ services:
     image: adminer:latest
     container_name: nextcloud-adminer
     ports:
-      - "8081:8080"
+      - "8091:8080"
     networks:
       - nextcloud-network
     depends_on:
